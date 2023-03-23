@@ -183,7 +183,7 @@ void makeBeep(int intervalSeconds, int howlongSeconds, int freq) {
   delay(intervalSeconds * 100);
   tone(buzzerPin, freq, howlongSeconds * 100);
 }
-//tes
+
 void read_eeprom(){
 mm = EEPROM.read(11);
 hh = EEPROM.read(12); 
