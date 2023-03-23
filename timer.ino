@@ -1,7 +1,7 @@
 //Devan Al Fauzi
 #include <EEPROM.h>  
 
-#define aPin 2  //        
+#define aPin 2  //   Menggunakan konsep 7 segmen     
 #define bPin 3  //      _____
 #define cPin 4  //     |  A  |
 #define dPin 5  //   F |_____| B
